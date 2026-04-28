@@ -84,7 +84,7 @@ class TopNav extends React.Component {
               </li>
               <li>
                 <Link
-                  to="/convention"
+                  to="https://lionscon.lionsclubs.org/?_gl=1*1gem2ip*_gcl_au*MTQ5MDM4NzU0MC4xNzcwMTk0Njkz*_ga*MzQ4NTIxNTc5LjE3NzAxOTQ2OTk.*_ga_NM7NEKVHGT*czE3NzczODczMDQkbzU3JGcxJHQxNzc3Mzg3ODA5JGo2MCRsMCRoMTgyODg5NDg4Mg.."
                   className="block py-2 px-3 text-black bg-white md:text-black md:p-0 font-normal font-sans uppercase"
                   onClick={this.closeMenu}
                 >
