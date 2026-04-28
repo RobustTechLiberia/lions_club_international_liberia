@@ -5,7 +5,7 @@ The Lion Club Liberia Platform is a centralized web application designed to unif
 
 The platform enables efficient member management, dues payment tracking, and administrative oversight through a modern web interface.
 
----
+
 
 ## Objectives
 - Centralize operations across all regional chapters  
@@ -13,7 +13,7 @@ The platform enables efficient member management, dues payment tracking, and adm
 - Improve transparency and accountability  
 - Provide real-time insights via dashboards  
 
----
+
 
 ## Features
 
@@ -29,7 +29,7 @@ The platform enables efficient member management, dues payment tracking, and adm
 - Member activity monitoring  
 - Chapter-level analytics  
 
----
+
 
 ## Tech Stack
 
@@ -44,13 +44,12 @@ The platform enables efficient member management, dues payment tracking, and adm
 - MongoDB (optional)
 - MySQL (recommended for financial consistency)
 
----
 
 ## System Architecture
 
 Client (React) → API (Express) → Database (MongoDB/MySQL)
 
----
+
 
 ## Getting Started
 
@@ -59,21 +58,21 @@ Client (React) → API (Express) → Database (MongoDB/MySQL)
 - npm or yarn
 - MongoDB or MySQL instance
 
----
+
 
 ### Local Development
 ```bash
 npm run dev
 ```
 
----
+
 
 ### Production Build
 ```bash
 npm run build
 ```
 
----
+
 
 ## Database Schema Design
 
@@ -87,7 +86,7 @@ npm run build
 - Member Dues  
 - Payments  
 
----
+
 
 ### Relational Schema (MySQL)
 
@@ -115,7 +114,7 @@ id, membership_id, dues_id, status
 #### Payments
 id, member_due_id, amount_paid, method, reference, status, payment_date
 
----
+
 
 
 
@@ -125,7 +124,7 @@ id, member_due_id, amount_paid, method, reference, status, payment_date
 - Input validation & sanitization  
 - Protection against XSS, CSRF, SQL/NoSQL Injection  
 
----
+
 
 ## Deployment
 - Use environment variables for sensitive data  
@@ -133,7 +132,7 @@ id, member_due_id, amount_paid, method, reference, status, payment_date
 - Use PM2 or similar process manager  
 - Configure reverse proxy (e.g., Nginx)  
 
----
+
 
 ## Future Enhancements
 - Mobile application  
@@ -142,7 +141,7 @@ id, member_due_id, amount_paid, method, reference, status, payment_date
 - Advanced analytics dashboard  
 - Payment gateway integration  
 
----
+
 
 ## Contribution Guidelines
 - Use feature-based branching (feature/*, fix/*)  
@@ -150,7 +149,7 @@ id, member_due_id, amount_paid, method, reference, status, payment_date
 - Submit pull requests with clear descriptions  
 - Ensure proper testing before merge  
 
----
+
 
 ## License
 Proprietary - Lion Club Liberia
