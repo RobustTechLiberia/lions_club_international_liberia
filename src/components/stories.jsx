@@ -28,12 +28,15 @@ class Stories extends React.Component {
                 className="w-full h-52 md:h-48 object-cover"
               />
               <div className="p-5 flex-1">
-                <h1 className="text-xl text-blue-950 font-semibold">
+                <h1 className="text-xl text-blue-950 font-semibold capitalize">
                   change a life
                 </h1>
                 <p className="text-gray-700 text-sm mt-2 lowercase">
                   <span className="uppercase">LCIF'</span>s impact is measured
-                  by individual life transformed through your support.
+                  by individual lives transformed through your support. Since
+                  1968, LCIF grants have empowered Lions globally, creating
+                  profound change. See how your generosity can make a
+                  difference, one life at a time.
                 </p>
               </div>
             </div>
@@ -47,14 +50,13 @@ class Stories extends React.Component {
               />
               {/* description */}
               <div className="p-5 flex-1">
-                <h1 className="text-xl text-blue-950 font-semibold">
+                <h1 className="text-xl text-blue-950 font-semibold capitalize">
                   empowering youth across the globe
                 </h1>
                 <p className="text-gray-700 text-sm mt-2 lowercase">
-                  over four years.
-                  <span className="capitalize"> lions quest </span>
-                  has transformed youth, expanded globally and formed key
-                  partnerships.
+                  Over four decades, Lions Quest has transformed youth, expanded
+                  globally and formed key partnerships. See how Lions Quest’s
+                  40-year journey has shaped young
                 </p>
               </div>
             </div>
@@ -68,14 +70,13 @@ class Stories extends React.Component {
               />
               {/* description */}
               <div className="p-5 flex-1">
-                <h1 className="text-xl text-blue-950 font-semibold">
-                  empowering youth across the globe
+                <h1 className="text-xl text-blue-950 font-semibold capitalize">
+                  support after disaster
                 </h1>
                 <p className="text-gray-700 text-sm mt-2 lowercase">
-                  over four years.
-                  <span className="capitalize"> lions quest </span>
-                  has transformed youth, expanded globally and formed key
-                  partnerships.
+                  When wildfires ravaged Texas, LCIF provided grants, enabling
+                  Lions to deliver immediate relief, and we’re still supporting
+                  these efforts. See the powerful impact we’re making together.
                 </p>
               </div>
             </div>
@@ -89,14 +90,14 @@ class Stories extends React.Component {
               />
               {/* description */}
               <div className="p-3 flex-1 bg-white">
-                <h1 className="text-xl text-blue-950 font-semibold">
-                  empowering youth across the globe
+                <h1 className="text-xl text-blue-950 font-semibold capitalize">
+                  responding and rebuilding together
                 </h1>
                 <p className="text-gray-700 text-sm mt-2 lowercase">
-                  over four years.
-                  <span className="capitalize"> lions quest </span>
-                  has transformed youth, expanded globally and formed key
-                  partnerships.
+                  When a magnitude 7.4 earthquake struck Hualien City, China
+                  Taiwan in April 2024, LCIF acted quickly to empower Lions on
+                  the ground. Lions delivered vital food, water and supplies to
+                  those affected by this crisis.
                 </p>
               </div>
             </div>
