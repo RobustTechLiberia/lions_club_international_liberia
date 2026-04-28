@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+@theme {
+  --font-lions: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
