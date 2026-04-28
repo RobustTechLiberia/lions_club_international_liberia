@@ -1,12 +1,13 @@
 import React from "react";
+import NavBar from "../components/navbar";
+import RegionalClubs from "../components/clubs";
 
 class FindClub extends React.Component {
   render() {
     return (
       <>
-        <div className="p-4">
-          <h1 className="text-2xl font-bold">Find a Club</h1>
-        </div>
+        <NavBar />
+        <RegionalClubs />
       </>
     );
   }
