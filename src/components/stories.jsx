@@ -18,7 +18,7 @@ class Stories extends React.Component {
             <div className="bg-amber-500 w-28 h-1"></div>
           </div>
 
-          {/* cards container */}
+          {/* description */}
           <div className="flex flex-wrap md:justify-start justify-center items-stretch gap-6 md:mx-20 mx-6 pb-10">
             {/* Card 1 */}
             <div className="w-full sm:w-72 md:w-64 bg-white shadow-sm flex flex-col">
