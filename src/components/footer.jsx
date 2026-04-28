@@ -5,7 +5,7 @@ class Footer extends React.Component {
   render() {
     return (
       <>
-        <div className="bg-blue-950 md:h-96">
+        <div className="bg-blue-950 md:h-full">
           <div className="flex flex-wrap justify-evenly gap-5">
             {/* news */}
             <div className="pt-8">
@@ -75,7 +75,17 @@ class Footer extends React.Component {
             </div>
           </div>
           <div className="pt-12">
-            <div className="bg-white md:mx-32 h-1"></div>
+            <div className="bg-white md:mx-32 h-1 mx-5"></div>
+          </div>
+          <div className="flex flex-wrap justify-evenly gap-0 md:mx-0 mx-5 pt-8">
+            <p className="text-md text-white text-start font-sans py-5 md:w-5xl md:mx-10">
+              All donations accepted on lionsclubs.org support Lions Clubs
+              International Foundation (LCIF), which is a 501(c)(3) tax-exempt
+              public charitable organization. Lions Clubs International (LCI) is
+              a 501(c)(4) tax-exempt social welfare organization and is not
+              eligible to accept or solicit charitable donations. LCI and LCIF
+              are EEO providers.
+            </p>
           </div>
         </div>
       </>
