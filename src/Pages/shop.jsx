@@ -1,12 +1,13 @@
 import React from "react";
+import Nav from "../components/shop_nav";
+import ShopCarousel from "../components/carousel_shop.jsx";
 
 class Shop extends React.Component {
   render() {
     return (
       <>
-        <div className="p-4">
-          <h1 className="text-2xl font-bold">Shop</h1>
-        </div>
+        <Nav />
+        <ShopCarousel/>
       </>
     );
   }
