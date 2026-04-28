@@ -4,8 +4,8 @@ class RegionalClubs extends React.Component {
   render() {
     return (
       <>
-        <div className="bg-gray-100 h-dvh md:pt-5">
-          <div className="md:mx-10 bg-white  h-96">
+        <div className="bg-gray-100 h-dvh md:pt-5 md:pb-5">
+          <div className="md:mx-5 bg-white  h-full ">
             <h1 className="text-2xl font-semibold md:mx-10 mx-5 py-5 capitalize text-left font-sans">
               find a regional club
             </h1>
