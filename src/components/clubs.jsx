@@ -6,12 +6,13 @@ class RegionalClubs extends React.Component {
     return (
       <>
         <div className="bg-gray-100 h-full md:pt-2 md:pb-5">
-          <div className="md:mx-5 bg-white h-auto  md:mb-20 ">
+          {/* inner card */}
+          <div className="md:mx-5 bg-white min-h-96 h-auto mb-4 md:pb-20 py-5">
             <h1 className="text-3xl font-semibold md:mx-10 mx-5 pt-10 capitalize text-left font-sans">
               find a regional club
             </h1>
             <p className="md:mx-10 mx-5 py-5 text-left text-gray-600 font-sans md:w-5xl">
-              Service starts with Lions. Whether you’re interested in becoming a
+              Service starts with Lions. Whether you're interested in becoming a
               Lion or Leo, or requesting service from a club, this is the place
               to do it. Simply type the location or club name into the search
               bar below, and let the service begin!
@@ -29,11 +30,11 @@ class RegionalClubs extends React.Component {
                     type="text"
                     name="search"
                     id="search"
-                    className="border border-gray-500 md:py-3 px-3 py-4 md:w-lg w-md"
+                    className="border border-gray-500 md:py-3 px-3 py-4 md:w-lg w-full"
                   />
                   <button
                     type="submit"
-                    className="bg-gray-500 py-3 capitalize  w-50 text-white"
+                    className="bg-gray-500 md:py-3 py-4 capitalize md:mt-0 mt-2 w-50 text-white"
                   >
                     search
                   </button>
