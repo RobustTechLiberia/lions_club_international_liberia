@@ -6,7 +6,7 @@ class CenterRegion extends React.Component {
     const clubs = [
       {
         name: "central monrovia lion club",
-        subname: "paynesville oriented lion club",
+        subname: "omega sinkor lion club",
         address: "Jodhpur Heritage On Rotation Basis Jodhpur RJ, 342001 INDIA",
         president: "Balveer Gehlot",
       },
