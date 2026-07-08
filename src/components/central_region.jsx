@@ -27,17 +27,23 @@ class CenterRegion extends React.Component {
     return (
       <>
         <div>
-          <h1 className="text-left md:mx-10 mx-5 md:my-5 text-3xl md:text-3xl font-sans font-semibold">
+          <h1 className="text-left md:mx-10 mx-5 md:my-5 text-3xl font-sans font-semibold">
             Our nearby clubs
           </h1>
 
-          <div className="md:mx-10 bg-white flex mx-5 md:py-5 py-5 flex-wrap md:justify-start justify-center gap-3">
+          {/*
+            Laptop should match Desktop:
+            - Keep fixed card width so wrapping happens only at the same breakpoints.
+            - Remove breakpoint-dependent inner padding differences.
+          */}
+          <div className="md:mx-10 bg-white flex mx-5 md:py-5 py-5 flex-wrap md:justify-start justify-center md:gap-3 gap-5">
             {clubs.map((club, index) => (
-              <div key={index} className="w-auto">
+              <div key={index} className="w-80">
                 <div className="shadow-sm bg-white rounded-none h-96 w-80">
                   <div className="bg-blue-900 h-10 text-white text-lg capitalize w-auto">
-                    <h1 className="md:mx-5">{club.name}</h1>
+                    <h1 className="mx-5">{club.name}</h1>
                   </div>
+
                   <div className="w-full bg-gray-500 h-40 flex justify-center items-center">
                     <img
                       src={LionsIcon}
@@ -45,7 +51,8 @@ class CenterRegion extends React.Component {
                       className="w-32 object-fill"
                     />
                   </div>
-                  <ul className="md:mx-5 my-3">
+
+                  <ul className="mx-5 my-3">
                     <li className="font-semibold text-lg capitalize text-left font-sans">
                       {club.subname}
                     </li>
