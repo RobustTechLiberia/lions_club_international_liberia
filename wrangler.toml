@@ -1,0 +1,9 @@
+name = "lions-club-liberia"
+compatibility_date = "2026-07-08"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
+
+[assets]
+not_found_handling = "single-page-application"
